@@ -1,0 +1,81 @@
+.social-icons-right {
+    position: fixed;
+    z-index: 1000000;
+    /* right:0; */
+    left: -20px;
+    top: 25%;
+}
+
+.social-icons-right li {
+    width: 46px;
+    height: 40px;
+    text-align: center;
+    border-bottom: 0;
+    list-style-type: none;
+}
+
+.social-icons-right a {
+    font-size: 19px;
+    color: #fff;
+    display: block;
+    padding: 7px 0px;
+}
+
+.social-icons-right li:hover {
+    background: #423f3f;
+    transition: all ease 0.2s;
+}
+
+.social-icons-right li:hover a i {
+    opacity: 1;
+    color: #fff;
+    transition: all ease-in 0.2s;
+}
+
+.social-icons-right li a i {
+    background: transparent !important;
+}
+
+.icon-fb {
+    background: #3b5998;
+}
+
+.icon-twwet {
+    background: #55acee;
+}
+
+.icon-gmail {
+    background: #35465c;
+}
+
+.icon-linked {
+    background: #3060dc;
+}
+
+.icon-youtube {
+    background: #cd201f;
+}
+
+.icon-instagram {
+    background: #6cab36;
+}
+
+
+.floating {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.float-button {
+    margin-top: 16px;
+}
